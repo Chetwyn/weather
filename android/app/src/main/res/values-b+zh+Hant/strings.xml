@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 中文（繁体）按 script 匹配：覆盖 zh-Hant-MO 等非 TW/HK 地区 -->
+    <string name="app_name">雲舒</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 8.0+ 自适应图标：背景为纯色，前景为透明底的云形。
+     108dp 画布中云形占 64%，落在 72dp 安全圆内，圆形/圆角遮罩都不会切到图形。 -->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/ic_launcher_background" />
+    <foreground android:drawable="@mipmap/ic_launcher_foreground" />
+</adaptive-icon>

@@ -1,0 +1,38 @@
+# 静态检查配置。
+#
+# 在 flutter_lints 之上补充了一批「团队纪律型」规则，重点是：
+# - 显式返回值 / 类型，便于评审阅读；
+# - 禁止隐式 dynamic 与 print；
+# - 强制 const、final 与不可变集合习惯。
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
+  language:
+    strict-casts: true
+    strict-inference: true
+
+linter:
+  rules:
+    - always_declare_return_types
+    - avoid_dynamic_calls
+    - avoid_print
+    - avoid_redundant_argument_values
+    - avoid_unused_constructor_parameters
+    - cancel_subscriptions
+    - close_sinks
+    - directives_ordering
+    - join_return_with_assignment
+    - only_throw_errors
+    - prefer_const_constructors
+    - prefer_const_declarations
+    - prefer_final_fields
+    - prefer_final_locals
+    - prefer_single_quotes
+    - sort_child_properties_last
+    - unawaited_futures
+    - unnecessary_lambdas
+    - use_super_parameters
