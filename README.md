@@ -6,6 +6,18 @@
 
 ---
 
+## 预览
+
+| 首页（简体中文） | 首页（English） |
+|---|---|
+| <img src="screenshots/home_zh.jpeg" width="260" alt="简体中文首页：当前天气、24 小时温度趋势、逐小时与 7 天预报" /> | <img src="screenshots/home_en.jpeg" width="260" alt="English home: current weather, 24-hour temperature trend, hourly and 7-day forecast" /> |
+
+| 当日详情 | 搜索与最近记录 |
+|---|---|
+| <img src="screenshots/day_detail.jpeg" width="260" alt="当日详情：降水概率、日出、日落、最大风速、紫外线峰值" /> | <img src="screenshots/search.jpeg" width="260" alt="搜索面板：搜索框、使用当前位置、最近搜索" /> |
+
+---
+
 ## 1. 功能
 
 | 能力 | 说明 |
